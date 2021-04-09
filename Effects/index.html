@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      #panel,
+      #flip {
+        padding: 5px;
+        text-align: center;
+        background-color: #e5eecc;
+        border: solid 1px #c3c3c3;
+      }
+
+      #panel {
+        padding: 50px;
+        display: none;
+      }
+
+      img{ 
+        position: relative;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Demonstration of the fadeToggle() Method -->
+    <button id="btn1">Click to fade in/out boxes</button><br /><br />
+    <div
+      id="div3"
+      style="width: 80px; height: 80px; background-color: red"
+    ></div>
+    <br />
+    <br />
+    <br />
+
+    <!-- Demonstration of the slideToggle() Method -->
+    <div id="flip">Click to slide the panel down or up</div>
+    <div id="panel">Hello world!</div>
+
+    <!-- Demonstration of the scroll() Method -->
+    <p>Try the scrollbar in the div</p>
+    
+    <div style="border:1px solid black;width:200px;height:100px;overflow:scroll;">In my younger and more vulnerable years my
+        father gave me some advice that I've been turning over in my mind ever since.
+        <br><br>
+        'Whenever you feel like criticizing anyone,' he told me, just remember that all the people in this world haven't had
+        the advantages that you've had.'
+    </div>
+    
+    <p>Scrolled <span>0</span> times.</p>
+
+    <!-- Demonstration of the animate() Method -->
+    <button id="btn2">Start Animation</button>
+    <p>
+        <img src="./littleMush.png" alt="Mushroom">
+    </p>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
